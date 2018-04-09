@@ -1,0 +1,117 @@
+html { 
+  background: url('http://www.tokkoro.com/picsup/446571-manchester-united-backgrounds-for-desktop-hd-backgrounds.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: Times;
+  font-weight: 300;
+}
+
+header {
+  padding: 0px 0;
+}
+
+header h1 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 60px;
+  background-color: #FFE500;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+header p {
+  padding: 10px 40px;
+  margin: 0;
+  font-size: 30px;
+  text-decoration: underline;
+  background-color: #FFE500;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header p:hover{
+    background-color: #FFE500; 
+}
+iframe{
+    padding-right: 10px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000000;
+   color: white;
+   text-align: center;
+}
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 90px;
+  margin-left: 400px;
+  margin-right: 400px;
+  color: inherit;
+  background-color: #eee;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 25px;
+  line-height: 40px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+.jumbotron h1{
+    font-size: 70px;
+    text-align: center;
+  }
+th{
+  font-size:50px;
+}  
+td{
+  border:solid 2px;
+  font-size: 50px;
+  color:orange;
+  text-align: center;
+  background-color:#FFE500;
+
+}
+td:hover{
+  text-decoration: underline;
+}
+#starting11{
+  text-align: center;
+  font-size: 60px;
+}
+.twitter-timeline{
+  display: inline-block;
+  margin-left: 700px;
+  margin-right: 300px;
+}
+
+.listings{
+  font-size: 30px;
+}
+.listings a{
+  text-decoration: underline;
+}
+iframe{
+  display: flex;
+  margin-left: 30%;
+  margin-right: 50%;
+}

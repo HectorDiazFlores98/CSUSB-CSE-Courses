@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Max and Min function using classes</title>
+
+</head>
+<body>
+
+<h1>Assignment: Create a class called MinMax</h1>
+<p>The class should have 3 functions</p>
+<ul>
+    <li>Constructor(numbers)</li>
+    <li>findMinMax()</li>
+    <li>removeMax()</li>
+</ul>
+
+<script src='min-max.js'></script>
+<h2>Here is the code:</h2>
+<code>
+    //declare class<br />
+class MinMax <br />
+{<br />
+    //declare constructor<br />
+    constructor(numbers) <br />
+    {<br />
+        //set this numbers = to numbers<br />
+        this.numbers = numbers;<br />
+        this.maxVar = this.numbers[0];<br />
+        this.minVar=this.numbers[0];<br />
+        <br />
+    }<br />
+    <br />
+    //Declare the find min and max functions<br />
+    findMinMax()<br />
+    {<br />
+        for(let i = 0; i &lt;= this.numbers.length; i++)<br />
+        {<br />
+            if(this.maxVar&lt;=this.numbers[i])<br />
+            {<br />
+                this.maxVar=this.numbers[i];<br />
+            }<br />
+            else if(this.minVar&gt;=this.numbers[i])<br />
+            {<br />
+                this.minVar=this.numbers[i];<br />
+                <br />
+            }<br />
+        }<br />
+            console.log('The Min Value: '+this.minVar);<br />
+            console.log('The Max Value: '+this.maxVar);<br />
+    }<br />
+    <br />
+    removeMax()<br />
+    {<br />
+        let indexofMax = this.numbers.indexOf(this.maxVar);<br />
+        this.numbers.splice(indexofMax,1);<br />
+        console.log("Removing the Max value: "+this.maxVar);<br />
+    }<br />
+      <br />
+          <br />
+}<br />
+<br />
+const testArray = new MinMax([3,9,0,1,7,9]);<br />
+<br />
+testArray.findMinMax();<br />
+console.log(testArray);<br />
+testArray.removeMax();
+</code>

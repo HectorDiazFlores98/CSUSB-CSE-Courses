@@ -1,0 +1,24 @@
+Script started on Fri 22 Apr 2016 04:58:33 PM UTC
+[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ c++ ex5.cpp
+[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please enter a number
+8
+8 is not prime
+[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please enter a number
+5
+5 is prime
+[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please enter a number
+25
+25 is not prime
+[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please enter a number
+-5
+Please enter a number greater than 0
+100
+100 is not prime
+[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ exit
+exit
+
+Script done on Fri 22 Apr 2016 04:59:07 PM UTC

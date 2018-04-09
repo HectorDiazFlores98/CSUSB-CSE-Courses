@@ -1,0 +1,24 @@
+Script started on Fri 22 Apr 2016 06:41:07 PM UTC
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ c++ ex2.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number greater than 1, and I will tell you if it is prime or not
+17
+17 is prime
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number greater than 1, and I will tell you if it is prime or not
+3 23
+23 is prime
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number greater than 1, and I will tell you if it is prime or not
+30
+30 is not prime
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number greater than 1, and I will tell you if it is prime or not
+-50
+Please input a number greater than 1
+./a.out16         16
+16 is not prime
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ exit
+exit
+
+Script done on Fri 22 Apr 2016 06:41:54 PM UTC

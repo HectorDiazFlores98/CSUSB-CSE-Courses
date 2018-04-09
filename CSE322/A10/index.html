@@ -1,0 +1,39 @@
+<div id="container" />
+
+<script src="ajax.js"></script>
+<script src="parse-response.js"></script>
+<h1>Enter a city in the text boxt and hit submit</h1>
+
+<!--Create a form to get the users input -->
+<form id="input">
+    <input type="text" name=""/>
+    <input type="button" onclick=submitCity() value="Submit"/>
+</form>
+<br><br>
+
+<!--create a variable called child if there is no child create it, if there is delete the previous one-->
+<script>
+var child;
+function submitCity(){
+
+/* global ajax */
+/* global parseResponse */
+var container = document.getElementById('container');
+var url = "http://api.openweathermap.org/data/2.5/weather?q="; 
+var city = document.getElementById("input").elements[0].value; 
+var apiKey = "b4cbcbce49cde1736ec42ec8d256c8b4" ; // Replace "APIKEY" with your own API key; otherwise, your HTTP request will not work 
+url += city + "&appid=" + apiKey; 
+ajax(url, function(resp) {  
+resp = parseResponse(resp); 
+if(!child)
+{
+    child=container.appendChild(document.createTextNode(resp));
+}
+else{
+    container.removeChild(child);
+    child=container.appendChild(document.createTextNode(resp));
+}
+
+}); 
+}
+</script>

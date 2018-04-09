@@ -1,0 +1,28 @@
+Script started on Fri 22 Apr 2016 06:55:48 PM UTC
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ c++ ex3.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number, and I will list all the prime numbers in between
+40
+3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number, and I will list all the prime numbers in between
+5
+3, 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number, and I will list all the prime numbers in between
+17
+3, 5, 7, 11, 13, 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.oi[Kut
+Please input a number, and I will list all the prime numbers in between
+25
+3, 5, 7, 11, 13, 17, 19, 23, 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please input a number, and I will list all the prime numbers in between
+-17
+Please enter a number greater than	0
+- 5
+3, 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ exit
+exit
+
+Script done on Fri 22 Apr 2016 06:56:28 PM UTC

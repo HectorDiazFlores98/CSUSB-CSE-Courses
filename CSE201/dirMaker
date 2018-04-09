@@ -1,0 +1,17 @@
+#!/bin/bash
+
+mkdir hw
+mkdir lab
+mkdir script
+
+usrVar=0
+
+while [ $usrVar != 10 ]
+    do
+    mkdir hw/hw$usrVar
+    mkdir lab/lab$usrVar
+    mkdir script/script$usrvar
+    usrVar=$[$usrVar+1]
+    done
+    
+    

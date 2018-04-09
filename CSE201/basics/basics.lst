@@ -1,0 +1,491 @@
+Script started on Fri 15 Apr 2016 07:31:57 PM UTC
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex.cpp1.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./.a.[K[K[Ka.out
+Please input 3 numbers
+one for x, one for y, and one for z
+5
+6
+73 
+The sum is 18
+The Sine of x is -0.958924
+The Cosine of (x+y)/z is -0.000632211
+The average is 6
+The log base 2 is 2.32193
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex2.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter a number between 3 and 12
+Input = 7
+Good Number
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter a number between 3 and 12
+Input = 1
+Bad number
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex3.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex4.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter a number and I will see if it is even or odd
+7
+It is odd
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter a number and I will see if it is even or odd
+16
+It is even
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++./a.[K[K[K[K ex5.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the temperature outside
+45
+It is cold
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the temperature outside
+60
+It is cold
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the temperature outside
+75
+It is warm
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the temperature outside
+900
+Do not go outside
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the temperature outside
+0
+Do not go outside
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex6.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+4
+33
+31
+8
+44
+4
+19
+42
+46
+6
+14
+37
+11
+23
+6
+8
+1
+42
+32
+20
+41
+19
+46
+25
+0
+9
+40
+17
+8
+46
+3
+12
+30
+34
+22
+26
+40
+41
+21
+36
+0
+35
+25
+13
+10
+31
+21
+11
+25
+3
+33
+16
+22
+29
+43
+24
+40
+34
+43
+48
+30
+46
+12
+12
+32
+35
+41
+22
+28
+12
+9
+28
+49
+36
+41
+9
+20
+15
+20
+45
+18
+5
+14
+43
+34
+7
+19
+27
+41
+15
+25
+24
+11
+40
+38
+44
+27
+29
+16
+5
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex7.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+107
+100
+99
+117
+83
+90
+106
+118
+122
+82
+78
+87
+100
+112
+80
+92
+85
+122
+96
+122
+105
+86
+118
+99
+95
+89
+80
+109
+124
+91
+116
+109
+118
+93
+101
+79
+108
+82
+124
+105
+91
+79
+119
+116
+116
+77
+83
+79
+124
+107
+78
+104
+120
+121
+81
+91
+88
+86
+75
+87
+104
+118
+123
+99
+86
+99
+105
+122
+109
+104
+104
+77
+108
+99
+119
+102
+101
+79
+108
+102
+111
+113
+81
+109
+112
+89
+75
+75
+102
+77
+89
+81
+120
+88
+108
+84
+114
+88
+81
+100
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex8.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+0.569746
+0.519107
+0.436862
+0.241496
+0.57625
+0.65174
+0.0937625
+0.0686792
+0.890954
+0.192254
+0.0497368
+0.241634
+0.581745
+0.0831388
+0.070026
+0.393249
+0.927769
+0.248771
+0.257635
+0.279566
+0.354222
+0.0652922
+0.164353
+0.0396757
+0.612548
+0.85899
+0.599422
+0.78947
+0.00886362
+0.765832
+0.296499
+0.57861
+0.284939
+0.733361
+0.820106
+0.86119
+0.385101
+0.913869
+0.929869
+0.276055
+0.106123
+0.979606
+0.517689
+0.687867
+0.0627446
+0.587715
+0.0811162
+0.990514
+0.836486
+0.338751
+0.27008
+0.190708
+0.404043
+0.434433
+0.230384
+0.0165913
+0.293423
+0.829806
+0.806061
+0.302287
+0.595638
+0.10256
+0.880897
+0.880577
+0.835921
+0.701003
+0.741767
+0.221022
+0.614872
+0.671636
+0.497077
+0.720995
+0.651242
+0.0147661
+0.408862
+0.713987
+0.602481
+0.489978
+0.7045
+0.438968
+0.828729
+0.97458
+0.629676
+0.232772
+0.409014
+0.860059
+0.249363
+0.702437
+0.689865
+0.0554242
+0.00472414
+0.285503
+0.157984
+0.885621
+0.166081
+0.993905
+0.586624
+0.907848
+0.214927
+0.201496
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ c++ ex9.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter a lower limit and upper limit
+Lower limit = 20
+Upper limit = 50
+41
+36
+38
+47
+24
+34
+32
+41
+43
+49
+29
+21
+38
+33
+20
+20
+45
+22
+46
+38
+30
+20
+34
+46
+38
+27
+45
+27
+35
+35
+28
+26
+43
+38
+45
+48
+45
+49
+31
+38
+49
+41
+32
+37
+46
+24
+29
+33
+26
+47
+21
+28
+39
+28
+24
+27
+35
+20
+26
+20
+27
+27
+49
+42
+45
+36
+40
+40
+36
+22
+21
+27
+35
+25
+36
+31
+29
+45
+37
+27
+42
+38
+27
+23
+46
+31
+30
+32
+23
+29
+24
+30
+36
+23
+23
+23
+32
+35
+44
+48
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ .[Kc++ ex10.cpp
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the number of meters you have
+Meters = 1
+3 ft 3 in
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the number of meters you have
+Meters = 2
+6 ft 7 in
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the number of meters you have
+Meters = .3048 9
+1 ft 0 in
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the number of meters you have
+Meters = .3048
+1 ft 0 in
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ ./a.out
+Please enter the number of meters you have
+Meters = .3047
+1 ft 0 in
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/basics[01;32mhectordiazflores[00m:[01;34m~/workspace/basics[00m $ clear[K[K[K[K[Kexit
+exit
+
+Script done on Fri 15 Apr 2016 07:38:25 PM UTC

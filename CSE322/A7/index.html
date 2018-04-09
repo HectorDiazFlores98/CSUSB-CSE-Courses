@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Max and Min function without using built in functions</title>
+
+</head>
+<body>
+
+<h1>Assignment: Create a function that accepts an array as an arguement and finds the biggest and smalles element
+in the array, do not used the built in functions</h1>
+
+<h2>
+    This is the code I used in order to find the max and min from the given array. The code is unstylized.
+</h2>
+
+<script language="javascript" type="text/javascript">
+
+function findMinMax (array){
+    let minVar=array[0];
+    let maxVar=array[0];
+    
+    for(let i = 0; i <= array.length; i++)
+    {
+        if(minVar<=array[i])
+        {
+            minVar=array[i];
+        }
+        else if(maxVar>=array[i])
+        {
+            maxVar=array[i];
+        }
+    }
+    
+    console.log('Min value= '+minVar);
+    console.log('Max value= '+maxVar);
+}
+
+console.log(findMinMax([1,4,-5,-4,30,2]));
+
+
+</script>
+
+<code>
+    &lt;html&gt;<br />
+&lt;head&gt;<br />
+&lt;title&gt;Max and Min function without using built in functions&lt;/title&gt;<br />
+<br />
+&lt;/head&gt;<br />
+&lt;body&gt;<br />
+<br />
+&lt;h1&gt;Assignment: Create a function that accepts an array as an arguement and finds the biggest and smalles element<br />
+in the array, do not used the built in functions&lt;/h1&gt;<br />
+<br />
+&lt;script language="javascript" type="text/javascript"&gt;<br />
+<br />
+function findMinMax (array){<br />
+    let minVar=array[0];<br />
+    let maxVar=array[0];<br />
+    <br />
+    for(let i = 0; i &lt;= array.length; i++)<br />
+    {<br />
+        if(minVar&lt;=array[i])<br />
+        {<br />
+            minVar=array[i];<br />
+        }<br />
+        else if(maxVar&gt;=array[i])<br />
+        {<br />
+            maxVar=array[i];<br />
+        }<br />
+    }<br />
+    <br />
+    console.log('Min value= '+minVar);<br />
+    console.log('Max value= '+maxVar);<br />
+}<br />
+<br />
+console.log(findMinMax([1,4,-5,-4,30,2]));<br />
+<br />
+<br />
+&lt;/script&gt;<br />
+<br />
+<br />
+&lt;/body&gt;<br />
+&lt;/html&gt;
+</code>
+</body>
+</html>

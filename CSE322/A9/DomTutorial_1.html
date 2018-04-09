@@ -1,0 +1,51 @@
+<!-- Hector Diaz, 004854001 -->
+<!-- A9 part 1 -->
+<!-- DOM manipulation -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM Manipulation</title>
+
+</head>
+<body>
+
+<script src="Dom1_script.js"></script>
+
+<h1>Assignment: Each Web page should illustrate the concepts and techniques covered in the corresponding tutorial</h1>
+<ul>Tutorial topics
+    <li>document.getElementById()</li>
+    <li>el.childNodes</li>
+    <li>el.firstChild and el.lastChild</li>
+    <li>el.nextSibling and el.previousSibling</li>
+    <li>el.parentNode</li>
+</ul>
+
+<button id='example1Button' type="button" onclick="example1Function()">Click to show: document.getElementById Example</button>
+
+<img id='SanFran' src='http://www.capoliticalreview.com/wp-content/uploads/2014/11/San-Francisco.jpg'>
+<p>Using the document.getElementById function, you can change the source of the photo</p>
+<br><br><br><br>
+
+<button id='example2Button' type="button" onclick="example2Function()">Click to show: el.childNodes Example</button>
+<div id='coloredP'>
+    <p>This paragraph is red</p>
+    <p>This paragraph is blue</p>
+    <p>This paragraph is yellow</p>
+</div>
+<p>using the childNode in this span, I can individually change the text color</p>
+
+<br><br><br><br>
+
+<button id='example3Button' type="button" onclick="example3Function()">Click to show: el.firstChild and el.lastChild Example</button>
+<button id='example4Button' type="button" onclick="example4Function()">Click to show: el.nextSibling and el.previousSibling Example</button>
+
+<div id='coloredP2'><li>Am I the First Child?</li><li>Second Child</li><li>Third Child, This should be top secret</li><li id='lastChild'>Last Child....or is it?</li></div>
+
+<p id = "testing"></p>
+
+<button id='example5Button' type="button" onclick="example5Function()">Click to show: el.parentNode</button>
+
+<ul>I am the parent Node
+    <li>I am a <b id='child'>child</b> of the node</li><li>I want to change this text</li>
+</ul>

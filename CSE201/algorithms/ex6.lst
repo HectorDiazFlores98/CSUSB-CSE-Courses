@@ -1,0 +1,23 @@
+Script started on Fri 22 Apr 2016 06:39:10 PM UTC
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ c++ [K[K[K[K./a.out
+Please enter a number
+15
+2 , 3 , 5 , 7 , 11 , 13 , 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please enter a number
+17
+2 , 3 , 5 , 7 , 11 , 13 , 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please enter a number
+20
+2 , 3 , 5 , 7 , 11 , 13 , 17 , 19 , 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ ./a.out
+Please enter a number
+-50
+Please enter a number greater than 0
+500   100
+2 , 3 , 5 , 7 , 11 , 13 , 17 , 19 , 23 , 29 , 31 , 37 , 41 , 43 , 47 , 53 , 59 , 61 , 67 , 71 , 73 , 79 , 83 , 89 , 97 , 
+]0;ubuntu@hectordiazflores-cse201-2950822: ~/workspace/algorithms[01;32mhectordiazflores[00m:[01;34m~/workspace/algorithms[00m $ exit
+exit
+
+Script done on Fri 22 Apr 2016 06:39:49 PM UTC

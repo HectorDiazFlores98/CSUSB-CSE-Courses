@@ -1,0 +1,1 @@
+This is the work that was done for my CSE 330 Data Structures class. We used C++ to learn about the structure of useful data libraries including vectors, trees and arrays.
